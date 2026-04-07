@@ -1,0 +1,30 @@
+.lorem{
+    background-color: crimson;
+}
+
+.lorem li{
+    color: gold;
+}
+
+.lorem li:nth-child(1){
+    color: seagreen;
+}
+
+.lorem li::before{
+    content: " • ";
+}
+
+::selection{
+    color: white;
+    background-color: black;
+}
+
+.lorem li::marker{
+    color: teal;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: purple;
+    scale: 1.2;
+}
